@@ -4,7 +4,7 @@ function EmployeePage (){
     return (
         <div>
             <h2> Employee Page </h2>
-            <Header></Header>
+            <Header pageTitle="Employee" />
         </div>
     )
 }

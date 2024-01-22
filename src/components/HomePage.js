@@ -6,7 +6,7 @@ function HomePage() {
     return(
         <div>
             <h2>Home Page</h2>
-            <Header></Header>
+            <Header pageTitle="Employee Directory" />
             <SearchBar></SearchBar>
             <EmployeeList></EmployeeList>
         </div>

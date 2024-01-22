@@ -1,7 +1,7 @@
-function Header() {
+function Header({ pageTitle }) {
     return(
         <div>
-            <h2>Header</h2>
+            <h2>{ pageTitle }</h2>
         </div>
     )
 }

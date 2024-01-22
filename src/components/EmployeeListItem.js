@@ -1,8 +1,8 @@
 
-function EmployeeListItem() {
+function EmployeeListItem({ employeeName } ) {
     return (
         <div>
-            <h4>Employee List Item</h4>
+            <h4 style={{border: "2px solid red"}}> { employeeName } </h4>
         </div>
     )
 }

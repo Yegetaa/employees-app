@@ -4,7 +4,7 @@ import EmployeePage from './components/EmployeePage';
 
 function App() {
   return (
-    <div className="App" style={{display: 'flex'}}>
+    <div className="App" style={{display: "flex"}}>
       {/* <h1>Employees App</h1> */}
       <HomePage></HomePage>
       <EmployeePage></EmployeePage>
